@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(62, 20, 131);
+    color: whitesmoke;
+    
+}
+
+h1.harry {
+    color: #fcf7ae;
+    font-size: 30px;
+    font-weight: bold;    
+    margin-bottom: 0;    
+}
+
+div {
+    text-align: center;
+}
+
+* {
+    margin-top: 20px;    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: auto;
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    margin: 26px;
+    font-size: xx-large;
+}
+
+.parrafo{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2 {
+    margin: 8px;
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    display:flex;
+    font-size: 30px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.canciones {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    border: 6px solid #fcf7ae;
+    align-items: center;
+    padding: 6px;
+    margin: auto;
+    text-align: center;
+   
+}
+
+a.button {
+padding: 4px;
+color: rgb(252, 220, 249);
+font-weight: 400;
+background-color: hotpink;
+border-radius: 20px;
+transition: background-color 0.3s ease;
+}
+
+a:hover {
+        background-color: #f590dc;
+}
+
+a.photo {
+    display: inline-block;
+}
+
+ol {
+    line-height:2.5;
+    font-size: 16px;
+}
+
+
+
+
+.form {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="url"] {
+    width: 300px;
+    height: 20px;
+    padding: 4px;
+    font-size: 16px;
+    color: black;
+}
+
+#desc {
+    color: black;
+}
+
+
+.registrarse {
+    font-size: x-large;
+}
+
+input[type="url"] {
+    width: 400px;
+    height: 6px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.barraLateral {
+    background-color: #333333f1;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.barraLateral h2 {
+    padding-left: 10px;
+}
+
+.barraLateral ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.barraLateral ul li {
+    padding: 10px 0;
+}
+
+.barraLateral ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    justify-content: space-around;
+    padding: 20px;    
+}
+
+.fechas {
+    display: flex;
+    justify-content: center;
+    font-style: italic;       
+    width: 600px;    
+    align-items: center;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+   
+}
